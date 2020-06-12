@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"
+        ></script>
+
+        <title>Hello, world!</title>
+        <style>
+            .search-input {
+                width: 70%;
+            }
+            .search-button {
+                position: absolute;
+                right: 0;
+                width: 20%;
+            }
+            .red-box {
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            .blue-box {
+                width: 100%;
+                height: 100px;
+                background-color: blue;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            .relative {
+                position: relative;
+            }
+            .left-panel {
+                display: inline-block;
+                width: 70%;
+                position: absolute;
+                top: 0;
+            }
+            .right-panel {
+                display: inline-block;
+                width: 20%;
+                position: absolute;
+                right: 0;
+            }
+            .align-box-wrap {
+                display: flex;
+                flex-wrap: wrap;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="relative">
+                <input class="search-input" />
+                <button class="search-button">search</button>
+            </div>
+            <div>
+                <div class="relative">
+                    <div class="left-panel">
+                        <div class="align-box-wrap">
+                            <div class="red-box"></div>
+                            <div class="red-box"></div>
+                            <div class="red-box"></div>
+                            <div class="red-box"></div>
+                            <div class="red-box"></div>
+                            <div class="red-box"></div>
+                            <div class="red-box"></div>
+                            <div class="red-box"></div>
+                            <div class="red-box"></div>
+                            <div class="red-box"></div>
+                            <div class="red-box"></div>
+                        </div>
+                    </div>
+                    <div class="right-panel">
+                        <div class="blue-box"></div>
+                        <div class="blue-box"></div>
+                        <div class="blue-box"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
